@@ -1,0 +1,48 @@
+#intro{
+    height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.introContent{
+    height: 100vh;
+    width: 100vw;
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.introName{
+    color: white;
+}
+.hello{
+    font-size: 1.75rem;
+    font-weight: 100;
+}
+
+.introPara{
+    font-size: medium;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.btn{
+    background: rgb(0, 20, 20);
+    margin: 1rem 0;
+    padding: 0.75rem 2rem;
+    border: none;
+    border-radius: 4rem;
+    color: white;
+}
+@media  screen and (max-width:840px) {
+    .introContent{
+        font-size: 10vw;
+    }
+    .hello{
+        font-size: 4.5vw;
+    }
+}

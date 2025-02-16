@@ -1,0 +1,129 @@
+/* WaterAnalytics.css */
+.analytics-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 24px;
+    background-color: #f8fafc;
+  }
+  
+  .analytics-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .analytics-header h1 {
+    color: #1e293b;
+    margin-bottom: 8px;
+    font-size: 32px;
+  }
+  
+  .analytics-header p {
+    color: #64748b;
+    font-size: 16px;
+  }
+  
+  .analytics-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+  
+  .chart-card {
+    background: white;
+    padding: 24px;
+    border-radius: 12px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .chart-card.wide {
+    grid-column: span 2;
+  }
+  
+  .chart-card h2 {
+    color: #1e293b;
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  
+  .stats-container {
+    grid-column: span 2;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  
+  .stat-card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .stat-card h3 {
+    color: #64748b;
+    font-size: 16px;
+    margin-bottom: 12px;
+  }
+  
+  .stat-value {
+    font-size: 28px;
+    font-weight: bold;
+    color: #1e293b;
+    margin-bottom: 8px;
+  }
+  
+  .stat-trend {
+    font-size: 14px;
+    padding: 4px 8px;
+    border-radius: 4px;
+    display: inline-block;
+  }
+  
+  .stat-trend.positive {
+    color: #059669;
+    background-color: #d1fae5;
+  }
+  
+  .stat-trend.negative {
+    color: #dc2626;
+    background-color: #fee2e2;
+  }
+  
+  .stat-trend.stable {
+    color: #0284c7;
+    background-color: #e0f2fe;
+  }
+  
+  @media (max-width: 1200px) {
+    .analytics-grid {
+      grid-template-columns: 1fr;
+    }
+  
+    .chart-card.wide {
+      grid-column: span 1;
+    }
+  
+    .stats-container {
+      grid-column: span 1;
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .analytics-container {
+      padding: 16px;
+    }
+  
+    .analytics-header h1 {
+      font-size: 24px;
+    }
+  
+    .stats-container {
+      grid-template-columns: 1fr;
+    }
+  
+    .stat-card {
+      padding: 16px;
+    }
+  }

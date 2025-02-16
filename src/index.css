@@ -1,0 +1,18 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+.app{
+  min-height: 100vh;
+  color: black;
+  background-color: rgb(38, 88, 253);
+}
+.navbar{
+  size: 30px;
+}
