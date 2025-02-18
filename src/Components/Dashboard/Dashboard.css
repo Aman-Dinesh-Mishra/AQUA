@@ -4,6 +4,7 @@
     margin: 0 auto;
     padding: 24px;
     background-color: #f8fafc;
+    animation: fadeUp 0.8s ease-out backwards;
   }
   
   .analytics-header {
@@ -26,6 +27,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 24px;
+    animation: fadeUp 0.8s ease-out backwards;
   }
   
   .chart-card {
@@ -37,6 +39,7 @@
   
   .chart-card.wide {
     grid-column: span 2;
+    animation: fadeUp 0.8s ease-in backwards;
   }
   
   .chart-card h2 {
@@ -64,6 +67,7 @@
     color: #64748b;
     font-size: 16px;
     margin-bottom: 12px;
+    animation: fadeUp 0.8s ease-out backwards;
   }
   
   .stat-value {
@@ -78,6 +82,7 @@
     padding: 4px 8px;
     border-radius: 4px;
     display: inline-block;
+    animation: fadeUp 0.8s ease-out backwards;
   }
   
   .stat-trend.positive {
