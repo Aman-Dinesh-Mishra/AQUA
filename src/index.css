@@ -11,7 +11,7 @@ a{
 .app{
   min-height: 100vh;
   color: black;
-  background-color: rgb(38, 88, 253);
+  background-color: #0f2850;
 }
 .navbar{
   size: 30px;
